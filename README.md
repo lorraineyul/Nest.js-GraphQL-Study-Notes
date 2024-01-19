@@ -19,7 +19,7 @@ npm run start:dev
 2. [NestJS doc](https://docs.nestjs.com/techniques/configuration)
 3. PostgreSQL database server on local machine
    
-* Create Database
+Create Database
 ```sql
 CREATE DATABASE dbname;
 CREATE USER username WITH PASSWORD 'password';
