@@ -25,6 +25,19 @@ CREATE DATABASE dbname;
 CREATE USER username WITH PASSWORD 'password';
 GRANT ALL PRIVILEGES ON DATABASE dbname TO username;
 ```
+```bash
+psql -d dbname
+```
+```sql
+CREATE TABLE tablename (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+```
+* Configuration
+```bash
+npm i --save @nestjs/config
+```
 
 
 ### TypeORM
