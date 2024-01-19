@@ -15,6 +15,12 @@ npm run start:dev
 ```
 
 ### Postgres
+Create Database
+```sql
+CREATE DATABASE dbname;
+CREATE USER username WITH PASSWORD 'password';
+GRANT ALL PRIVILEGES ON DATABASE dbname TO username;
+```
 
 
 ### TypeORM
