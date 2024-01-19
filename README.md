@@ -19,12 +19,12 @@ npm run start:dev
 
 2. PostgreSQL database server on local machine
    
-  Create Database
-  ```sql
-  CREATE DATABASE dbname;
-  CREATE USER username WITH PASSWORD 'password';
-  GRANT ALL PRIVILEGES ON DATABASE dbname TO username;
-  ```
+* Create Database
+```sql
+CREATE DATABASE dbname;
+CREATE USER username WITH PASSWORD 'password';
+GRANT ALL PRIVILEGES ON DATABASE dbname TO username;
+```
 
 
 ### TypeORM
